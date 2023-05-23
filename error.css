@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600&display=swap');
+
+:root {
+    --dark-blue: #173D7B;
+    --medium-blue: #5793CF;
+    --light-blue: #D5EBFF;
+    --login-blue: #B3E0FF;
+    --black: #333;
+    --white: #fff;
+    --gradient-dark: linear-gradient(180deg, #5793CF 0%, #173D7B 100%);
+    --gradient-light: linear-gradient(180deg, #D5EBFF 0%, #5793CF 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: var(--login-blue);
+    
+}
